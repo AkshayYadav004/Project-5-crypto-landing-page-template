@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* main div for the backgroung image */
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./assets/bg.png);
+    background-size: cover;
+    color: white;
+}
+
+/* Main navbar CSS */
+.navbar{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+/* CSS on logo */
+.logo{
+    padding: 10px 50px;
+    height: 2em;
+}
+
+/* white line after logo */
+.line{
+    border-left: 1px solid white;
+    margin: 10px 10px;
+}
+
+/* Css on list */
+.grow-list .list{
+    list-style: none;
+    display: flex;
+
+}
+
+.list-item{
+    padding: 15px 40px ;
+}
+.list-item:hover{
+    color: grey;
+}
+
+/* Button in navbar */
+.grow-list + div{
+    border: none;
+    margin-left: 400px;
+}
+
+.button-small{
+   background-color: #BA0CC5; 
+   color: white;
+   border: 0px;
+   border-radius: 10px;
+   padding:10px 20px ;
+   margin-top: 10px;
+}
+.button-small:hover{
+    color: greenyellow;
+}
+
+/* ------------------- */
+/* Hero section Starts */
+.hero{
+    width: 100vw;
+    text-align: center;
+    padding-top: 125px ;
+}
+
+/* Main Container Heading */
+.hero-heading{
+    font-family: sans-serif;
+    font-size: 90px;
+    font-weight: bolder;
+}
+
+/* paragraph */
+.hero-description{
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+/* Button "Request early access" */
+.button-large{
+    background-color: #BA0CC5;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
